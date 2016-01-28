@@ -1,0 +1,198 @@
+/* bloc principal */
+
+@font-face {
+    font-family: "ElficFont";
+    src: url('elficfont.ttf');
+}
+
+body {
+color:black;
+background-color:black;
+background-image:url(background.jpg);
+width: 100%;
+height: 100%;
+background-attachment: fixed;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+#banner
+{
+    width:100% ;
+    position: re
+}
+
+#listhomepage
+{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+
+#listhomepage .menulvl1
+{
+	display: inline-block;
+	height: 50px;
+	width: auto;
+	min-width: 260px;
+	background-color: black;
+	color: #D8D8D8;
+	position: center;
+	text-align: center;
+	font-family: elficfont;
+	font-size: 2.2em;
+	border-radius: 5px;
+	margin-bottom: 3px;
+	border-style: groove;
+	border-color: #D8D8D8;
+	position: relative;
+}
+
+#listhomepage li a
+{
+	display: block;
+	vertical-align: middle;
+	text-decoration: none;
+	color: white;
+
+}
+
+footer
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+
+footer li
+{
+	display: inline-block;
+	width: 250px;
+	height: 20px;
+	position: center;
+}
+
+.menulvl2
+{
+	display: none;
+}
+
+.menulvl1:hover .menulvl2
+{
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50px;
+	background-color: #000;
+	border-radius: 5px;
+	margin-bottom: 3px;
+	border-style: groove;
+	border-color: #D8D8D8;
+	z-index: 1000;
+	list-style-type: none;
+	padding: 0;
+	font-size: 0.8em;
+}
+
+.menulvl2 hr 
+{
+	padding: 0px;
+	margin: 3px auto;
+	width: 30px;
+	font-size: 0.9em;
+
+}
+
+/* bloc principal */
+
+.fullevent
+{
+	display: block;
+	margin: auto;
+}
+
+.fullevent h2
+{
+	color: #D8D8D8;
+	text-align: center;
+}
+
+.event
+
+{
+	height:340px;
+	width: 600px;
+	margin: 40px;
+	display: block;
+	float: center;
+
+}
+
+hr
+{
+	width: 200px;
+	margin: 50px auto;
+
+}
+
+.text_column
+{
+	display: block;
+}
+
+
+.column1
+{
+	float: center;
+	width: 160px;
+
+}
+
+.column2
+{
+	float: center;
+	width: 160px;
+
+}
+
+table 
+{
+	display: block;
+	margin: auto;
+	width: 50%;
+	margin-bottom: 100px;
+}
+
+.column p
+{
+	height: auto;
+	width: 250px;
+	text-align: justify;
+	margin: auto;
+	color: #D8D8D8;
+	font-size: 1.2em;
+
+}
+
+h1
+{
+	text-align: center;
+	color: #D8D8D8;
+	margin: 130px auto;
+	font-size: 3em;
+
+}
+
+li a 
+{
+	color: white;
+	text-decoration: none;
+}
+
+#responsive
+{
+	width:100%;
+}

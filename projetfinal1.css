@@ -1,0 +1,211 @@
+/* bloc principal */
+
+@font-face {
+    font-family: "ElficFont";
+    src: url('elficfont.ttf');
+}
+
+body {
+color:black;
+background-color:black;
+background-image:url(background.jpg);
+width: 100%;
+height: 100%;
+background-attachment: fixed;
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 0;
+padding : 0;
+}
+
+#banner
+{
+    width:100% ;
+    position: re
+}
+
+#listhomepage
+{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+
+#listhomepage .menulvl1
+{
+	display: inline-block;
+	height: 50px;
+	width: auto;
+	min-width: 260px;
+	background-color: black;
+	color: #D8D8D8;
+	position: center;
+	text-align: center;
+	font-family: elficfont;
+	font-size: 2.2em;
+	border-radius: 5px;
+	margin-bottom: 3px;
+	border-style: groove;
+	border-color: #D8D8D8;
+	position: relative;
+}
+
+#listhomepage li a
+{
+	display: block;
+	vertical-align: middle;
+	text-decoration: none;
+	color: white;
+
+}
+
+footer
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+
+footer li
+{
+	display: inline-block;
+	width: 250px;
+	height: 20px;
+	position: center;
+}
+
+.menulvl2
+{
+	display: none;
+}
+
+.menulvl1:hover .menulvl2
+{
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50px;
+	background-color: #000;
+	border-radius: 5px;
+	margin-bottom: 3px;
+	border-style: groove;
+	border-color: #D8D8D8;
+	z-index: 1000;
+	list-style-type: none;
+	padding: 0;
+	font-size: 0.8em;
+}
+
+.menulvl2 hr 
+{
+	padding: 0px;
+	margin: 3px auto;
+	width: 30px;
+	font-size: 0.9em;
+
+}
+
+/* bloc principal */
+
+#left-side-bar{
+    margin: 20px 0px 20px 0px;
+    display: inline-block;
+    vertical-align: top;
+    width: 248px;
+    height: auto;
+    min-height: 400px;
+    background: #111;
+    color: white;
+    padding-top: 20px;
+    padding-right: 20px;
+    opacity: 0.5;
+    border-style: groove;
+
+}
+
+#left-side-bar ul li{
+    margin-top: 28px;
+    font-size: 20px;
+    list-style-type: none;
+
+}
+
+.symbol:before
+{
+	content:"\03FE \00A0";
+}
+
+
+.slideshow {
+	position: relative;
+	width: 640px;
+	height: 310px;
+	padding: 15px;
+	margin: 0 auto 2em;
+	border: 1px solid #ddd;
+	background: #FFF;
+	/* CSS3 effects */
+	background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+	border-radius: 2px 2px 2px 2px;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.2);
+}
+ 
+/* avanced box-shadow
+ * tutorial @
+ * http://www.creativejuiz.fr/blog/les-tutoriels/ombre-avancees-avec-css3-et-box-shadow 
+*/
+.slideshow:before,
+.slideshow:after {
+	position: absolute;
+	bottom:16px;
+	z-index: -10;
+	width: 50%;
+	height: 20px;
+	content: " ";
+	background: rgba(0,0,0,0.1);
+	border-radius: 50%;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.4), 0 20px 10px rgba(0,0,0, 0.7);
+}
+#slideshow:before {
+	left:0;
+	transform: rotate(-4deg);
+}
+#slideshow:after {
+	right:0;
+	transform: rotate(4deg);
+}
+
+.slideshow img 
+{
+	display: none;
+	width: 640px;
+	height: 310px;
+}
+
+.slideshow .slide-active
+{
+	display: block;
+}
+
+#lavolte
+{
+	color: white;
+	text-align: center;
+}
+
+#diaporama
+
+{
+	padding: 100px 100px 100px 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li a 
+{
+	color: white;
+	text-decoration: none;
+}

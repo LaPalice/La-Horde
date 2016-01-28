@@ -1,0 +1,116 @@
+/* bloc principal */
+
+@font-face {
+    font-family: "ElficFont";
+    src: url('elficfont.ttf');
+}
+
+body {
+color:black;
+background-color:black;
+background-image:url(background.jpg);
+width: 100%;
+height: 100%;
+background-attachment: fixed;
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 0;
+padding : 0;
+}
+
+#banner
+{
+    width:100% ;
+    position: re
+}
+
+#listhomepage
+{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+
+#listhomepage li
+{
+	display: inline-block;
+	height: 50px;
+	width: auto;
+	min-width: 260px;
+	background-color: black;
+	color: #D8D8D8;
+	position: center;
+	text-align: center;
+	font-family: elficfont;
+	font-size: 2.2em;
+	border-radius: 5px;
+	margin-bottom: 3px;
+	border-style: groove;
+	border-color: #D8D8D8;
+}
+
+#listhomepage li a
+{
+	display: block;
+	vertical-align: middle;
+	text-decoration: none;
+	color: white;
+
+}
+
+footer
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+
+footer li
+{
+	display: inline-block;
+	width: 250px;
+	height: 20px;
+	position: center;
+}
+
+/* bloc principal */
+
+form
+{
+  color: #111111;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+
+legend
+{
+	display: block;
+	text-align: center;
+	color: white;
+}
+
+label
+{
+	color: white;
+}
+
+h4
+{
+	color: white;
+	padding: 0;
+}
+
+input
+{
+	text-align: center;
+}
+
+li a 
+{
+	color: white;
+	text-decoration: none;
+}

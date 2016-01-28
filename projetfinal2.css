@@ -1,0 +1,210 @@
+/* bloc principal */
+
+@font-face {
+    font-family: "ElficFont";
+    src: url('elficfont.ttf');
+}
+
+html
+{width: 100%; }
+
+body {
+color:black;
+background-color:black;
+background-image:url(background.jpg);
+width: 100%;
+height: 100%;
+background-attachment: fixed;
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 0;
+}
+
+#banner
+{
+    width:100% ;
+    position: re
+}
+
+#listhomepage
+{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+
+#listhomepage .menulvl1
+{
+	display: inline-block;
+	height: 50px;
+	width: auto;
+	min-width: 260px;
+	background-color: black;
+	color: #D8D8D8;
+	position: center;
+	text-align: center;
+	font-family: elficfont;
+	font-size: 2.2em;
+	border-radius: 5px;
+	margin-bottom: 3px;
+	border-style: groove;
+	border-color: #D8D8D8;
+	position: relative;
+}
+
+#listhomepage li a
+{
+	display: block;
+	vertical-align: middle;
+	text-decoration: none;
+	color: white;
+
+}
+
+footer
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+
+footer li
+{
+	display: inline-block;
+	width: 250px;
+	height: 20px;
+	position: center;
+}
+
+.menulvl2
+{
+	display: none;
+}
+
+.menulvl1:hover .menulvl2
+{
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50px;
+	background-color: #000;
+	border-radius: 5px;
+	margin-bottom: 3px;
+	border-style: groove;
+	border-color: #D8D8D8;
+	z-index: 1000;
+	list-style-type: none;
+	padding: 0;
+	font-size: 0.8em;
+}
+
+.menulvl2 hr 
+{
+	padding: 0px;
+	margin: 3px auto;
+	width: 30px;
+	font-size: 0.9em;
+
+}
+
+/* bloc principal */
+
+.block
+{
+	display: block;
+	width: 92.5%;
+	padding: 30px 50px 50px 50px;
+	text-align: center;
+	font-family: "Tahoma";
+	opacity: 0.9;
+}
+
+.block h1
+{
+	text-align: center;
+	color: white;
+	font-family: "elficfont";
+	margin-bottom: 30px;
+
+}
+
+#block1
+{
+	display: block;
+	background-color: black;
+	color: white;
+	height: auto;
+	margin-top: 50px;
+	border-radius: 10px 10px 0px 0px;
+	border-top: 1px solid white;
+}
+
+#block2
+{
+	display: block;
+	background-color: #A01313;
+	color: #D8D8D8;
+	height: auto;
+}
+
+#block3
+{
+	display: block;
+	background-color: #462986;
+	color: white;
+	height: auto;
+}
+
+#block4
+{
+	display: block;
+	background-color: #CEA2CC;
+	color: black;
+	height: auto;
+}
+
+#block5
+{
+	display: block;
+	background-color: #695267;
+	color: white;
+	height: auto;
+	border-radius: 0px 0px 10px 10px;
+	border-bottom: 1px solid white;
+}
+
+li a 
+{
+	color: white;
+	text-decoration: none;
+}
+
+#myblock1
+{
+	display: none;
+}
+
+.click:target #myblock1
+
+{
+	display: inline;
+}
+
+#caca
+{
+	display: block;
+	background-color: black;
+	color: white;
+	height: auto;
+	margin-top: 50px;
+	border-radius: 10px 10px 0px 0px;
+	border-top: 1px solid white;
+}
+
+.block h1
+{
+	cursor:pointer;
+}

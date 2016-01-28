@@ -1,0 +1,8 @@
+{
+  "name": "la-horde",
+  "cozy-type": "static",
+  "displayName": "La Horde du Contrevent",
+  "version": "1.0.0",
+  "description": "Bienvenue sur le site de la Horde du Contrevent",
+  "main": "index.html"
+}

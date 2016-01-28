@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Never gonna give you up...</title>
+  <link rel="stylesheet" href="projetfinal4.css">
+  <script type="text/javascript" src="projetfinal4.js"></script>
+
+</head>
+<body>
+
+	<header>
+		<a href="index.html"><img id="banner" src="banniere.jpg" alt="damnit"></a>
+	</header>
+	<ul id="listhomepage">
+		<li>
+			<a href="">
+				Auteur
+			</a>
+		</li>
+		<li>
+			<a href="projetfinal2.html">
+				Univers
+			</a>
+		</li>
+		<li>
+			<a href="">
+				Personnages
+			</a>
+		</li>
+		<li>
+			<a href="projetfinal3.html">
+				Actualités
+			</a>
+		</li>
+		<li>
+			<a href="projetfinal4.html">
+				Contact
+			</a>
+		</li>
+	</ul>
+
+	<form method="post" action="http://supjs.fr/HEC/HTML/formHandler-exo28/">
+	    <fieldset>
+	        <legend>Rejoignez la Horde!</legend>
+	        <input type="text" name="lastname" placeholder="Nom de famille" required><br>
+	        <input type="text" name="firstname" placeholder="Prénom" required><br>
+	        <input type="email" name="email" placeholder="Adresse email" required><br>
+	        <input type="number" name="nb_brothers_and_sisters" placeholder="Nombre de frères et soeurs" required min="0" max="128"><br>
+	        <h4>Genre</h4>
+	        <label for="sex-m">Masculin</label><input checked id="sex-m" type="radio" name="sex" value="m"><br>
+	        <label for="sex-f">Féminin</label><input id="sex-f" type="radio" name="sex" value="f">
+	        <label for="sex-f">Autre</label><input id="sex-f" type="radio" name="sex" value="f"><br><br>
+	        <input type="date" name="birthdate" id="birthdate" placeholder="Date de naissance"> <label for="birthdate" required></label><br>
+	        <input type="password" name="password" placeholder="Mot de passe" required minlength="6"><br>
+	        <input type="password" name="password_verification" placeholder="Vérification mot de passe" minlength="6"><br>
+	        <input type="submit" value="Bienvenue dans la Horde !">
+	    </fieldset>
+	</form>
+
+	<audio src="rickroll.mp3" autoplay>
+        Votre navigateur n'est pas compatible avec audio
+    </audio>
+
+
+	<footer>
+		<ul>
+			<li><a href="">Accueil</a></li>
+			<li><a href="">Plan du site</a></li>
+			<li><a href="">Mentions légales</a></li>
+			<li><a href="">Crédits</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+	</footer>
+
+
+
+</body>
+</html>
